@@ -8,5 +8,5 @@ docker run -d \
    --restart unless-stopped \
    -e 'PORT=443' -e 'DST=google.com:443' \
    --name=g_proxy \
-   socat_tcp_proxy
+   paucpauc/socat_tcp_proxy
 ```
